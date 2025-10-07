@@ -3,7 +3,7 @@ Dans ce dépôt sur Github on retrouve mon travail effectuer au long du cours de
 ProjetSmartcitiesIOT.
 
 #Exercice1
-Dans le fichier TestLed on retrouve le premier programme qui a été effectué en utilisant Micropython et un Raspberry Pi Pico.
+Dans le fichier TestLED on retrouve le premier programme qui a été effectué en utilisant Micropython et un Raspberry Pi Pico.
 Ce programme MicroPython gère une LED à l'aide d'un bouton sur un Raspberry Pi Pico. Il propose 3 modes de fonctionnement pour la LED, sélectionnés via un bouton :
 
 Mode 1 : Clignotement lent (1 seconde ON / 1 seconde OFF)
