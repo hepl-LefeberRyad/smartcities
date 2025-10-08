@@ -14,7 +14,8 @@ Le Raspberry Pi Pico W est une carte microcontrôleur basée sur la puce RP2040.
 C’est une carte compacte, peu coûteuse, idéale pour les projets IoT et embarqués.
 ### Pinout du Raspberry Pi Pico
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/eb88469c-6eab-4b56-b656-c31beb64dd05" />
-
+### Datasheet Raspberry Pico W
+https://datasheets.raspberrypi.com/picow/pico-w-datasheet.pdf
 ### Grove Shield for Pi Pico
 J'ai également utilisé une extension de board qui facilite la connexion des différents modules sur le raspberry pico. 
 L'extension utilisée est le Grove Shield for Pi Pico : https://www.seeedstudio.com/Grove-Shield-for-Pi-Pico-v1-0-p-4846.html
