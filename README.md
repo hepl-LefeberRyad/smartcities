@@ -26,7 +26,7 @@ Pour programmer le Raspberry Pi Pico W, j'ai utilisé le langage MicroPython, un
 
 
 ### Visual Studio
-Pour télécharger les différents codes sur le Raspberry Pi Pico, j'utilise Visual Studio Code. Pour accomplir ceci, j'ai dû télécharger une extension appelée MicroPico.
+Pour télécharger les différents codes sur le Raspberry Pi Pico, j'ai utilisé le logiciel Visual Studio Code. Pour accomplir ceci, j'ai dû télécharger une extension appelée MicroPico.
 L’extension MicroPico facilite la connexion entre le Pico et l’éditeur, permettant de flasher facilement le firmware MicroPython, de transférer les fichiers (scripts .py) vers la carte. Elle automatise plusieurs étapes du processus de développement, ce qui simplifie grandement le travail avec MicroPython, surtout lorsqu'on débute avec les microcontrôleurs.
 
 <img width="256" height="256" alt="image" src="https://github.com/user-attachments/assets/df7c7b63-1ead-417d-b8d8-e82640a81637" />
