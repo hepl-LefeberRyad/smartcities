@@ -1,10 +1,10 @@
-## AD-PWM
-### Introduction
+# AD-PWM
+## Introduction
 Ce dossier contient tous les codes réalisés pour contrôler des LEDs et un buzzer en utilisant le PWM, ainsi que pour lire la valeur d’un potentiomètre.
-### Exercice 2
-#### Introduction
+## Exercice 2
+### Introduction
 Ce code permet de jouer les mélodies de Mario et de la Marche Impériale de Star Wars, en changeant de mélodie lorsque le switch est activé. Pour réaliser cet exercice, j'ai utilisé un switch, une LED, un potentiomètre et un buzzer passif.
-#### Fonctionnalité du code
+### Fonctionnalité du code
 - Lecture de mélodies : le buzzer passif est branché sur le pin analogique A1 du GrooveShield.
 
 - Contrôle du volume via un potentiomètre connecté à une entrée analogique A0 du GrooveShield.
