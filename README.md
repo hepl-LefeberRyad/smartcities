@@ -18,8 +18,12 @@ C’est une carte compacte, peu coûteuse, idéale pour les projets IoT et embar
 ### Datasheet Raspberry Pico W
 https://datasheets.raspberrypi.com/picow/pico-w-datasheet.pdf
 ### Grove Shield for Pi Pico
-J'ai également utilisé une extension de board qui facilite la connexion des différents modules sur le raspberry pico. 
+J'ai également utilisé une extension de carte qui facilite la connexion des différents modules au Raspberry Pi Pico.
 L'extension utilisée est le Grove Shield for Pi Pico : https://www.seeedstudio.com/Grove-Shield-for-Pi-Pico-v1-0-p-4846.html
+
+Le kit de développement que j'ai utilisé tout au long de ces travaux est le Grove Starter Kit for Raspberry Pi Pico : https://www.seeedstudio.com/Grove-Starter-Kit-for-Raspberry-Pi-Pico-p-4851.html
+
+Tous les composants utilisés dans ces différents travaux sont inclus dans ce kit.
 
 ## Micropython
 Pour programmer le Raspberry Pi Pico W, j'ai utilisé le langage MicroPython, une version allégée de Python spécialement conçue pour les microcontrôleurs. MicroPython a été développé par Damien P. George en 2013 dans le but de rendre la programmation embarquée plus accessible, tout en conservant la simplicité et la puissance du langage Python.
