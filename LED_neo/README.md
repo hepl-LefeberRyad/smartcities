@@ -1,3 +1,5 @@
+# Introduction
+utilisation des LEDs néopixel, documentation des fonctions de la librairie, arc-en-ciel
 ## Exercice 4
 ### Introduction
 Cet exercice permet de contrôler une LED RGB qui change de couleur au rythme de la musique. Le script utilise un microphone pour détecter les battements et peut calculer le BPM de la musique et enregistrer la moyenne dans un fichier texte sur le raspberry pico.
