@@ -26,6 +26,7 @@ Le kit de développement que j'ai utilisé tout au long de ces travaux est le Gr
 Tous les composants utilisés dans ces différents travaux sont inclus dans ce kit.
 ### Librairies
 Pour certains codes, j’ai dû implémenter certaines librairies qui se trouvent sur ce dépôt : https://github.com/TinkerGen/Pico-micropython.
+
 Pour que cela fonctionne, il faut ouvrir les différents fichiers dans l’environnement de travail MicroPython, puis faire un clic droit sur chaque fichier et sélectionner “Update file to Pico”.
 
 ## Micropython
