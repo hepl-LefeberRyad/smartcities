@@ -9,7 +9,6 @@ Le dépôt contient plusieurs dossiers:
 - LED_NEO : utilisation des LEDs néopixel, documentation des fonctions de la librairie, arc-en-ciel
 - network : accès réseau avec le RPi Pico.
 - sensors : Température et humidité, luminosité, PIR
-  Chaque travail a été effectué à l'aide de ce manuel: [Beginner's Guide for Raspberry Pi Pico.pdf](docs/Beginner's Guide for Raspberry Pi Pico.pdf)
 ## Raspberry Pico W
 Le Raspberry Pi Pico W est une carte microcontrôleur basée sur la puce RP2040. Elle est équipée d’un processeur dual-core ARM Cortex-M0+ cadencé à 133 MHz, de 264 Ko de RAM, et ajoute la connectivité Wi-Fi par rapport au modèle Pico original.
 C’est une carte compacte, peu coûteuse, idéale pour les projets IoT et embarqués.
