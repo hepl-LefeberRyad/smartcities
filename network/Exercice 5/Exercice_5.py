@@ -4,8 +4,8 @@ from machine import Pin, PWM
 from utime import sleep, localtime, ticks_ms
 
 # --- Configuration du Wi-Fi ---
-ssid = 'ton ssid'  # Nom du reseau Wi-Fi
-password = 'ton code'        # Mot de passe du reseau
+ssid = 'ssid'  # Nom du reseau Wi-Fi
+password = 'code'        # Mot de passe du reseau
 
 # Initialisation de la connexion Wi-Fi en mode station
 wlan = network.WLAN(network.STA_IF)
@@ -124,3 +124,4 @@ while True:
     print("Heure actuelle: {:02d}:{:02d}:{:02d} | Angle servo: {:.2f}".format(h, m, s, hour_angle))
 
     sleep(0.02)  # Petite pause pour detection fiable du bouton
+
