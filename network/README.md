@@ -16,6 +16,7 @@ Contrôle du servomoteur :
 Le servomoteur est commandé en fonction de l’heure actuelle. Chaque position de l’aiguille correspond à un angle calculé pour représenter les heures de 12 h à 11 h. Le mouvement du servo varie progressivement selon les minutes pour obtenir une rotation fluide entre deux heures.
 
 Pour simuler l’horloge, j’ai dessiné une horloge sur du papier où 6 h correspond à 90° et 12 h à 180°, ce qui fait que chaque heure est séparée de 15°. 12 AM est fixé à 0° et 12 PM à 180°.
+![Horloge](https://github.com/user-attachments/assets/57d2db0b-d9cb-4324-8969-f1643a10f7af)
 
 Le programme comporte deux modes principaux :
 
