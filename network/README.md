@@ -18,7 +18,7 @@ Le servomoteur est commandé en fonction de l’heure actuelle. Chaque position 
 Gestion du bouton-poussoir :
 Le bouton permet d’interagir avec le programme :
 
-- Un clic simple modifie le fuseau horaire (décalage UTC).
+- Un clic simple modifie le décalage horaire (UTC,UTC+1,UTC+2,UTC-5).
 
 - Un double clic active ou désactive le mode 24 heures.
 
