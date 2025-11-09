@@ -15,6 +15,31 @@ Une fois connecté, le Pico récupère l’heure exacte via un serveur NTP (Netw
 Contrôle du servomoteur :
 Le servomoteur est commandé en fonction de l’heure actuelle. Chaque position de l’aiguille correspond à un angle calculé pour représenter les heures de 12 h à 11 h. Le mouvement du servo varie progressivement selon les minutes pour obtenir une rotation fluide entre deux heures.
 
+Pour simuler l’horloge, j’ai dessiné une horloge sur du papier où 6 h correspond à 90° et 12 h à 180°, ce qui fait que chaque heure est séparée de 15°. 12 AM est fixé à 0° et 12 PM à 180°.
+
+Le programme comporte deux modes principaux :
+
+Mode 24 h :
+
+- Dans ce mode, on ignore la distinction AM/PM.
+
+- Le servo se déplace de manière linéaire pour représenter les heures de 12 AM à 12 PM.
+
+- Chaque heure correspond à un angle défini dans le dictionnaire hour_angle_24h.
+
+- Pour l’heure spéciale 11 → 12, le servo descend progressivement de 15° à 0° pendant l’heure 11, puis saute directement à 180° à 12:00. Cela permet de représenter le passage de 11 à 12 sans ambiguïté et sans différencier AM et PM.
+
+Mode 12 PM → 6 PM :
+
+- Ce mode ne couvre que la période de 12 PM à 6 PM.
+
+- Le servo part de 180° à 12 PM et descend progressivement jusqu’à 90° à 6 PM.
+
+- Les heures intermédiaires sont interpolées en fonction des minutes pour un mouvement fluide.
+
+- Si l’heure est en dehors de la plage 12 PM–6 PM, le servo reste fixe à 180°.
+
+Ces modes permettent de représenter l’heure de manière réaliste sur le servo tout en simulant l’aiguille d’une horloge classique.
 Gestion du bouton-poussoir :
 Le bouton permet d’interagir avec le programme :
 
